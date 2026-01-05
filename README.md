@@ -35,7 +35,6 @@ Please see the [docker-selkies-glx-desktop](https://github.com/selkies-project/d
 | Architecture | Available | Tag |
 | :----: | :----: | ---- |
 | x86-64 | ✅ | amd64-\<version tag\> |
-| arm64 | ✅ | arm64-\<version tag\> |
 
 ## Examples
 

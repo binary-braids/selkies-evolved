@@ -1,3 +1,13 @@
+## [0.1.2](https://github.com/binary-braids/selkies-evolved/compare/v0.1.1...v0.1.2) (2026-01-05)
+
+
+### Bug Fixes
+
+* add udev and group config ([eed3720](https://github.com/binary-braids/selkies-evolved/commit/eed3720eadb379e06d926b8f3574d4f82ca72d5e))
+* correct run order ([f372acf](https://github.com/binary-braids/selkies-evolved/commit/f372acf90e6d60bc081be67e271fb170a5da9c03))
+
+
+
 ## [0.1.1](https://github.com/binary-braids/selkies-evolved/compare/v0.1.0...v0.1.1) (2026-01-05)
 
 

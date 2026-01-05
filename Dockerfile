@@ -29,4 +29,11 @@ RUN mkdir -p /home/ubuntu/.config/sunshine && \
 EXPOSE 47984/tcp 48010/tcp
 EXPOSE 47989/udp 47990/udp
 
+# Add FS overlay
+COPY overlay /
+
 USER 1000
+
+# Set entrypoint
+RUN chmod +x /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]

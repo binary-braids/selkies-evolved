@@ -26,15 +26,9 @@ RUN set -eux; \
 RUN mkdir -p /home/ubuntu/.config/sunshine && \
     chown -R ubuntu:ubuntu /home/ubuntu/.config/sunshine
 
+RUN chmod 0666 /dev/uinput
+
 EXPOSE 47984/tcp 48010/tcp
 EXPOSE 47989/udp 47990/udp
 
-# Add FS overlay
-COPY overlay /
-
-RUN chmod +x /entrypoint.sh
-
 USER 1000
-
-# Set entrypoint
-ENTRYPOINT ["/entrypoint.sh"]

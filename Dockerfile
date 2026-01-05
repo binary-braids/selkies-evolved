@@ -1,4 +1,4 @@
-FROM ghcri.io/selkies-project/nvidia-glx-desktop:latest
+FROM ghcr.io/selkies-project/nvidia-glx-desktop:24.04-20251107145840
 
 ARG DEBIAN_FRONTEND=noninteractive
 

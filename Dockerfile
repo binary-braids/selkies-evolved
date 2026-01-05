@@ -32,8 +32,9 @@ EXPOSE 47989/udp 47990/udp
 # Add FS overlay
 COPY overlay /
 
+RUN chmod +x /entrypoint.sh
+
 USER 1000
 
 # Set entrypoint
-RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]

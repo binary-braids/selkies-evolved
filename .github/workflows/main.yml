@@ -85,7 +85,7 @@ jobs:
 
       - name: Generate Release 📦
         if: ${{ steps.changelog.outputs.skipped == 'false' }}
-        uses: softprops/action-gh-release@a74c6b72af54cfa997e81df42d94703d6313a2d0 # v2
+        uses: softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65 # v2
         with:
           tag_name: ${{ steps.changelog.outputs.tag }}
           name: ${{ steps.changelog.outputs.tag }}

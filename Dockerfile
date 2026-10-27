@@ -1,4 +1,4 @@
-FROM ghcr.io/selkies-project/nvidia-glx-desktop:24.04-20251107145840
+FROM ghcr.io/selkies-project/nvidia-glx-desktop:24.04-20251107145840@sha256:24d88fe6c41847223f1c3c0cf97f3161135d7953a3a82e72b2fddf6c2ade1c9f
 
 ARG DEBIAN_FRONTEND=noninteractive
 
